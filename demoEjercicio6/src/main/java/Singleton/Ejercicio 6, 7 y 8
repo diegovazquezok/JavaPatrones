@@ -1,0 +1,40 @@
+
+Identifica las características principales de los patrones de diseño más conocidos, indica para qué valen y un caso de uso para cada uno de ellos
+
+PATRONES CREACIONALES
+Patrón Singleton:
+Características principales: El patrón de diseño Singleton asegura que solo se pueda crear una instancia de una clase. Tiene un constructor privado que solo se puede llamar desde la propia clase.
+Propósito: Este patrón se utiliza cuando queremos asegurarnos de que solo existe una única instancia de una clase en todo el sistema.
+Caso de uso: Un caso de uso común para Singleton es en una aplicación de registro, donde solo se debe tener una única instancia de un objeto que gestiona el registro de usuarios.
+
+Patrón Factory:
+Características principales: El patrón de diseño Factory proporciona una interfaz para crear objetos de una clase, pero permite a las subclases decidir qué clase instanciar. Es una forma de encapsular la creación de objetos.
+Propósito: Este patrón se utiliza cuando queremos crear objetos sin exponer la lógica de creación al cliente.
+Caso de uso: Un caso de uso común para Factory es en una aplicación de procesamiento de pedidos en línea, donde hay diferentes tipos de productos y cada tipo de producto requiere su propia lógica de creación.
+
+Patrón Builder:
+Características principales: El patrón de diseño Builder separa la construcción de un objeto complejo de su representación, de manera que el mismo proceso de construcción puede crear diferentes representaciones. Utiliza métodos encadenados para construir objetos complejos.
+Propósito: Este patrón se utiliza cuando queremos simplificar la construcción de objetos complejos y crear diferentes representaciones de ellos.
+Caso de uso: Un caso de uso común para Builder es en una aplicación de gestión de proyectos, donde se pueden crear diferentes tipos de proyectos con diferentes configuraciones.
+
+Patrón Prototype:
+Características principales: El patrón de diseño Prototype clona objetos existentes para crear nuevos objetos. Se utiliza una interfaz Cloneable para indicar que un objeto se puede clonar.
+Propósito: Este patrón se utiliza cuando queremos crear nuevos objetos a partir de objetos existentes, sin tener que crearlos desde cero.
+Caso de uso: Un caso de uso común para Prototype es en una aplicación de diseño gráfico, donde se pueden clonar objetos gráficos existentes para crear nuevos diseños.
+
+PATRONES ESTRUCTURALES
+
+Patrón de diseño Decorator:
+Características principales: El patrón de diseño Decorator permite agregar comportamiento o funcionalidad a un objeto existente dinámicamente sin modificar su estructura básica. Este patrón utiliza la composición en lugar de la herencia para extender la funcionalidad de un objeto.
+Propósito: Este patrón se utiliza cuando se requiere agregar nuevas funcionalidades a un objeto existente sin cambiar su estructura básica.
+Caso de uso: Un caso de uso común para Decorator es en un editor de texto donde se pueden agregar diferentes estilos de fuente, colores y tamaños de fuente a un texto existente.
+
+Patrón de diseño Adapter:
+Características principales: El patrón de diseño Adapter se utiliza para conectar dos interfaces incompatibles. Actúa como un puente entre dos objetos que no pueden trabajar juntos debido a diferentes interfaces.
+Propósito: Este patrón se utiliza para convertir la interfaz de una clase en otra interfaz que el cliente espera.
+Caso de uso: Un caso de uso común para Adapter es en un sistema de pago donde se debe integrar diferentes proveedores de pago que utilizan diferentes protocolos.
+
+Patrón de diseño Facade:
+Características principales: El patrón de diseño Facade proporciona una interfaz simple para un subsistema complejo. Permite a los clientes interactuar con el subsistema de una manera simplificada y fácil de usar.
+Propósito: Este patrón se utiliza para ocultar la complejidad de un subsistema detrás de una interfaz simple y fácil de usar para los clientes.
+Caso de uso: Un caso de uso común para Facade es en un sistema de reserva de vuelos donde se puede proporcionar una interfaz simple para que los clientes reserven vuelos, sin tener que interactuar directamente con los complejos sistemas de gestión de vuelos y aerolíneas.
