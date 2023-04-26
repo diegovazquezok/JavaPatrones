@@ -36,5 +36,6 @@ Caso de uso: Un caso de uso común para Adapter es en un sistema de pago donde s
 
 Patrón de diseño Facade:
 Características principales: El patrón de diseño Facade proporciona una interfaz simple para un subsistema complejo. Permite a los clientes interactuar con el subsistema de una manera simplificada y fácil de usar.
+
 Propósito: Este patrón se utiliza para ocultar la complejidad de un subsistema detrás de una interfaz simple y fácil de usar para los clientes.
 Caso de uso: Un caso de uso común para Facade es en un sistema de reserva de vuelos donde se puede proporcionar una interfaz simple para que los clientes reserven vuelos, sin tener que interactuar directamente con los complejos sistemas de gestión de vuelos y aerolíneas.
